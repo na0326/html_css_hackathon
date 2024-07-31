@@ -125,6 +125,7 @@ header .container a:hover {
 
 #more-text {
   display: none;
+  margin: 0 45px;
 }
 
 .btn {
@@ -182,12 +183,6 @@ header .container a:hover {
   vertical-align: top;
   width: 38%;
   padding: 20px;
-}
-
-.icon:hover {
-  .languages-content {
-    display: inline;
-  }
 }
 
 .languages-content {
@@ -411,7 +406,7 @@ header .container a:hover {
   text-align: center;
 }
 
-.student-box:first-child {
+.student-box:active {
   display: flex;
 }
 
@@ -514,6 +509,10 @@ header .container a:hover {
   color: #c9d1d6;
 }
 
+.btn-loading:hover {
+  color: rgb(232, 237, 239);
+}
+
 .column-box {
   display: inline-block;
   vertical-align: top;
@@ -532,12 +531,24 @@ header .container a:hover {
   font-weight: 600;
 }
 
+.column-title:hover {
+  color: rgb(13, 192, 192);
+}
+
+.mask {
+  overflow: hidden;
+}
+
 .column-image {
   width: 100%;
   height: 277px;
   background-position: center;
   background-size: 100% auto;
   transition: all .3s;
+}
+
+.column-image:hover {
+  transform: scale(1.25);
 }
 
 .zoom-black {
